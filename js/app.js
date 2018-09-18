@@ -292,7 +292,7 @@ function addImageJack() {
 
 function addImageAce() {
   var a = document.createElement("IMG");
-  a.setAttribute("src", "ace.png");
+  a.setAttribute("src", "ace.svg");
   a.setAttribute("width", "242");
   a.setAttribute("height", "336");
   a.setAttribute("alt", "King");
