@@ -124,55 +124,64 @@ function genSecondCard() {
       break;
     case 2:
       secondCard[1];
-      document.getElementById("cardNumber2").innerHTML = "2";
+      // document.getElementById("cardNumber2").innerHTML = "2";
+      addImage2();
       console.log("You have got 2");
       console.log(random2);
       break;
     case 3:
       secondCard[2];
-      document.getElementById("cardNumber2").innerHTML = "3";
+      // document.getElementById("cardNumber2").innerHTML = "3";
+      addImage3();
       console.log("You have got 3");
       console.log(random2);
       break;
     case 4:
       secondCard[3];
-      document.getElementById("cardNumber2").innerHTML = "4";
+      // document.getElementById("cardNumber2").innerHTML = "4";
+      addImage4();
       console.log("You have got 4");
       console.log(random2);
       break;
     case 5:
       secondCard[4];
-      document.getElementById("cardNumber2").innerHTML = "5";
+      // document.getElementById("cardNumber2").innerHTML = "5";
+      addImage5();
       console.log("You have got 5");
       console.log(random2);
       break;
     case 6:
       secondCard[5];
-      document.getElementById("cardNumber2").innerHTML = "6";
+      // document.getElementById("cardNumber2").innerHTML = "6";
+      addImage6();
       console.log("You have got 6");
       console.log(random2);
       break;
     case 7:
       secondCard[6];
-      document.getElementById("cardNumber2").innerHTML = "7";
+      // document.getElementById("cardNumber2").innerHTML = "7";
+      addImage7();
       console.log("You have got 7");
       console.log(random2);
       break;
     case 8:
       secondCard[7];
-      document.getElementById("cardNumber2").innerHTML = "8";
+      // document.getElementById("cardNumber2").innerHTML = "8";
+      addImage8();
       console.log("You have got 8");
       console.log(random2);
       break;
     case 9:
       secondCard[8];
-      document.getElementById("cardNumber2").innerHTML = "9";
+      // document.getElementById("cardNumber2").innerHTML = "9";
+      addImage9();
       console.log("You have got 9");
       console.log(random2);
       break;
     case 10:
       secondCard[9];
-      document.getElementById("cardNumber2").innerHTML = "10";
+      // document.getElementById("cardNumber2").innerHTML = "10";
+      addImage10();
       console.log("You have got 10");
       console.log(random2);
       break;
@@ -263,6 +272,8 @@ function moveCard() {
   oldParent.innerHTML = '';
 }
 
+// Images:
+
 function addImageKing() {
   var x = document.createElement("IMG");
   x.setAttribute("src", "king.png");
@@ -297,6 +308,87 @@ function addImageAce() {
   a.setAttribute("height", "336");
   a.setAttribute("alt", "King");
   document.getElementById("cardNumber2").appendChild(a);
+}
+
+function addImage2() {
+  var two = document.createElement("IMG");
+  two.setAttribute("src", "2.svg");
+  two.setAttribute("width", "242");
+  two.setAttribute("height", "336");
+  two.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(two);
+}
+
+function addImage3() {
+  var three = document.createElement("IMG");
+  three.setAttribute("src", "3.svg");
+  three.setAttribute("width", "242");
+  three.setAttribute("height", "336");
+  three.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(three);
+}
+
+function addImage4() {
+  var four = document.createElement("IMG");
+  four.setAttribute("src", "4.png");
+  four.setAttribute("width", "242");
+  four.setAttribute("height", "336");
+  four.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(four);
+}
+
+function addImage5() {
+  var five = document.createElement("IMG");
+  five.setAttribute("src", "5.png");
+  five.setAttribute("width", "242");
+  five.setAttribute("height", "336");
+  five.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(five);
+}
+
+function addImage6() {
+  var six = document.createElement("IMG");
+  six.setAttribute("src", "6.png");
+  six.setAttribute("width", "242");
+  six.setAttribute("height", "336");
+  six.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(six);
+}
+
+function addImage7() {
+  var seven = document.createElement("IMG");
+  seven.setAttribute("src", "7.png");
+  seven.setAttribute("width", "242");
+  seven.setAttribute("height", "336");
+  seven.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(seven);
+}
+
+function addImage8() {
+  var eight = document.createElement("IMG");
+  eight.setAttribute("src", "8.svg");
+  eight.setAttribute("width", "242");
+  eight.setAttribute("height", "336");
+  eight.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(eight);
+}
+
+function addImage9() {
+  var nine = document.createElement("IMG");
+  nine.setAttribute("src", "9.png");
+  nine.setAttribute("width", "242");
+  nine.setAttribute("height", "336");
+  nine.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(nine);
+}
+
+function addImage10() {
+  var ten = document.createElement("IMG");
+  ten.setAttribute("src", "10.png");
+  ten.setAttribute("width", "242");
+  ten.setAttribute("height", "336");
+  ten.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(ten);
 }
 
 
