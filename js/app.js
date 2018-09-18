@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function(){
 var buttonGen = document.getElementById("buttongen");
 buttonGen.addEventListener("click", genRandomCard);
 
+buttonGen.hidden = false;
+
 // var buttonGen2 = document.getElementById("buttongen2");
 // buttonGen2.addEventListener("click", genSecondCard);
 
@@ -107,6 +109,7 @@ function genRandomCard() {
 
 function genSecondCard() {
 
+  // document.getElementsByClassName('card2')[0].style.visibility = 'hidden';
 
   random2 = Math.ceil(Math.random()*13);
 
@@ -193,7 +196,7 @@ function genSecondCard() {
     console.log("Thats Not Meant to Happen")
   }
 
-  compare(random, random2);
+  compare(random2, random);
 
 
 }
@@ -207,6 +210,7 @@ function compare(num1, num2){
     console.log('Its the same');
   }
 }
+
 
 var higher = document.getElementById("higherbtn");
 higher.addEventListener("click", higherNumber);
@@ -245,6 +249,8 @@ function lowerNumber() {
 }
 
 function moveCard() {
+
+  buttonGen.hidden = true;
 
   var oldParent = document.getElementById('cardNumber2');
   var newParent = document.getElementById('cardNumber');

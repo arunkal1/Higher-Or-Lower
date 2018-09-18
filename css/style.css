@@ -7,6 +7,15 @@
   width: 250px;
 }
 
+.card2 {
+  border: solid black 4px;
+  border-radius: 10px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 250px;
+}
+
 .card_suit{
   color: black;
   font-size: 75px;
