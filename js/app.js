@@ -217,6 +217,9 @@ lower.addEventListener("click", lowerNumber);
 
 function higherNumber() {
 
+  moveCard();
+  genSecondCard();
+
   if (random2 > random) {
     console.log("1 Point");
   } else if (random2 == random) {
@@ -228,6 +231,10 @@ function higherNumber() {
 }
 
 function lowerNumber() {
+
+  moveCard();
+  genSecondCard();
+
   if (random2 < random) {
     console.log("1 Point");
   } else if (random2 == random) {
@@ -235,6 +242,14 @@ function lowerNumber() {
   } else if (random2 > random){
     console.log("You lose a life");
   }
+}
+
+function moveCard() {
+
+  var oldParent = document.getElementById('cardNumber2');
+  var newParent = document.getElementById('cardNumber');
+  newParent.innerHTML = oldParent.innerHTML;
+  oldParent.innerHTML = '';
 }
 
 
