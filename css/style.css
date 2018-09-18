@@ -1,3 +1,7 @@
+body{
+  text-align: center;
+}
+
 .card {
   border: solid black 4px;
   border-radius: 10px;
@@ -5,6 +9,7 @@
   margin: 0 auto;
   margin-top: 100px;
   width: 250px;
+  margin-bottom: 10px;
 }
 
 .card2 {
@@ -14,6 +19,7 @@
   margin: 0 auto;
   margin-top: 100px;
   width: 250px;
+  margin-bottom: 10px;
 }
 
 .card_suit{
