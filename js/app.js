@@ -83,7 +83,7 @@ function genRandomCard() {
     case 11:
       card[10];
       document.getElementById("cardNumber").innerHTML = "Joker";
-      console.log("You have got a Joker");
+      console.log("You have got a Jack");
       console.log(random);
       break;
     case 12:
@@ -95,6 +95,7 @@ function genRandomCard() {
     case 13:
       card[12];
       document.getElementById("cardNumber").innerHTML = "King";
+      // addImageKing();
       console.log("You have got a King");
       console.log(random);
       break;
@@ -116,7 +117,8 @@ function genSecondCard() {
   switch (random2) {
     case 1:
       secondCard[0];
-      document.getElementById("cardNumber2").innerHTML = "Ace";
+      // document.getElementById("cardNumber2").innerHTML = "Ace";
+      addImageAce();
       console.log("You have got an ace");
       console.log(random2);
       break;
@@ -176,19 +178,22 @@ function genSecondCard() {
       break;
     case 11:
       secondCard[10];
-      document.getElementById("cardNumber2").innerHTML = "Joker";
-      console.log("You have got a Joker");
+      // document.getElementById("cardNumber2").innerHTML = "Joker";
+      addImageJack();
+      console.log("You have got a Jack");
       console.log(random2);
       break;
     case 12:
       secondCard[11];
-      document.getElementById("cardNumber2").innerHTML = "Queen";
+      // document.getElementById("cardNumber2").innerHTML = "Queen";
+      addImageQueen();
       console.log("You have got a Queen");
       console.log(random2);
       break;
     case 13:
       secondCard[12];
-      document.getElementById("cardNumber2").innerHTML = "King";
+      // document.getElementById("cardNumber2").innerHTML = "King";
+      addImageKing();
       console.log("You have got a King");
       console.log(random2);
       break;
@@ -258,6 +263,41 @@ function moveCard() {
   oldParent.innerHTML = '';
 }
 
+function addImageKing() {
+  var x = document.createElement("IMG");
+  x.setAttribute("src", "king.png");
+  x.setAttribute("width", "242");
+  x.setAttribute("height", "336");
+  x.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(x);
+}
+
+function addImageQueen() {
+  var q = document.createElement("IMG");
+  q.setAttribute("src", "queen.png");
+  q.setAttribute("width", "242");
+  q.setAttribute("height", "336");
+  q.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(q);
+}
+
+function addImageJack() {
+  var j = document.createElement("IMG");
+  j.setAttribute("src", "jack.png");
+  j.setAttribute("width", "242");
+  j.setAttribute("height", "336");
+  j.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(j);
+}
+
+function addImageAce() {
+  var a = document.createElement("IMG");
+  a.setAttribute("src", "ace.png");
+  a.setAttribute("width", "242");
+  a.setAttribute("height", "336");
+  a.setAttribute("alt", "King");
+  document.getElementById("cardNumber2").appendChild(a);
+}
 
 
 });

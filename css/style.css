@@ -19,6 +19,7 @@
 .card_suit{
   color: black;
   font-size: 75px;
+  text-align: center;
 }
 
 #cardNumber {
