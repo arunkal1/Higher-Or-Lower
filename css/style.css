@@ -1,5 +1,7 @@
 body{
   text-align: center;
+  background-color: #006400;
+  color: white;
 }
 
 .card {
@@ -9,7 +11,10 @@ body{
   margin: 0 auto;
   margin-top: 100px;
   width: 250px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
+  background-color: white;
+  outline: groove white 4px;
+  outline-offset: 20px;
 }
 
 .card2 {
@@ -19,7 +24,10 @@ body{
   margin: 0 auto;
   margin-top: 100px;
   width: 250px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
+  background-color: white;
+  outline: groove white 4px;
+  outline-offset: 20px;
 }
 
 .card_suit{
@@ -36,4 +44,16 @@ body{
 #cardNumber2 {
   color: black;
   font-size: 75px;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+.outer-card {
+  border: white solid 4px;
+  height: 400px;
+  width: 300px;
+  margin-top: 100px;
+  border-radius: 10px
 }
