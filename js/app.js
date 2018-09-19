@@ -17,6 +17,7 @@ var random2;
 var lives = 3;
 document.getElementById('lives').innerHTML = lives;
 var score = 0;
+document.getElementById('score').innerHTML = score;
 
 function genRandomCard() {
 
@@ -255,10 +256,10 @@ function higherNumber() {
     lives = lives - 1;
     document.getElementById('lives').innerHTML = lives;
     console.log("Your Lives are " + lives);
-    if (lives < 0) {
-      alert("Your lives are out");
-      prompt("Would you like to play again: (1)YES or (2)NO... Your Score was" + score);
-    }
+  }
+  if (lives <= 0) {
+    alert("Your lives are out");
+    resetGame();
   }
 }
 
@@ -279,10 +280,10 @@ function lowerNumber() {
     lives = lives - 1;
     document.getElementById('lives').innerHTML = lives;
     console.log("Your Lives are " + lives);
-    if (lives < 0) {
-      alert("Your lives are out");
-      prompt("Would you like to play again: (1)YES or (2)NO... Your Score was: " + score);
-    }
+  }
+  if (lives <= 0) {
+    alert("Your lives are out");
+    resetGame();
   }
 }
 
@@ -296,6 +297,34 @@ function moveCard() {
   var newParent = document.getElementById('cardNumber');
   newParent.innerHTML = oldParent.innerHTML;
   oldParent.innerHTML = '';
+}
+
+function resetGame() {
+  var restart = prompt("Would you like to play again: (1)Yes or (2)No... Your Score was " + score);
+
+  while (restart != "1" && restart != "2") {
+    restart = prompt("Invalid Selection: Would you like to play again: (1)Yes or (2) No");
+  }
+
+  if (restart == 1) {
+    window.location.reload(false);
+  } else if (restart == 2) {
+    var x = document.getElementById("main-content") ;
+    x.style.display = "none";
+    bringBackContent();
+  }
+}
+
+var bringBack = document.getElementById("bringback");
+bringBack.addEventListener("click", bringBackContent);
+
+bringBack.hidden = true;
+
+function bringBackContent() {
+  bringBack.hidden = false;
+  bringBack.addEventListener("click", function(){
+    window.location.reload(false)
+  }); 
 }
 
 // Images:
