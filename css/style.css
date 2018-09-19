@@ -4,6 +4,11 @@ body{
   color: white;
 }
 
+.header {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .card {
   border: solid black 4px;
   border-radius: 10px;
