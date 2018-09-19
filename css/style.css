@@ -61,3 +61,12 @@ h1 {
 .images{
   margin-top: 20px;
 }
+
+.rules {
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+}

@@ -26,79 +26,79 @@ function genRandomCard() {
   switch (random) {
     case 1:
       card[0];
-      document.getElementById("cardNumber").innerHTML = "Ace";
+      // document.getElementById("cardNumber").innerHTML = "Ace";
       console.log("You have got an ace");
       console.log(random);
       break;
     case 2:
       card[1];
-      document.getElementById("cardNumber").innerHTML = "2";
+      // document.getElementById("cardNumber").innerHTML = "2";
       console.log("You have got 2");
       console.log(random);
       break;
     case 3:
       card[2];
-      document.getElementById("cardNumber").innerHTML = "3";
+      // document.getElementById("cardNumber").innerHTML = "3";
       console.log("You have got 3");
       console.log(random);
       break;
     case 4:
       card[3];
-      document.getElementById("cardNumber").innerHTML = "4";
+      // document.getElementById("cardNumber").innerHTML = "4";
       console.log("You have got 4");
       console.log(random);
       break;
     case 5:
       card[4];
-      document.getElementById("cardNumber").innerHTML = "5";
+      // document.getElementById("cardNumber").innerHTML = "5";
       console.log("You have got 5");
       console.log(random);
       break;
     case 6:
       card[5];
-      document.getElementById("cardNumber").innerHTML = "6";
+      // document.getElementById("cardNumber").innerHTML = "6";
       console.log("You have got 6");
       console.log(random);
       break;
     case 7:
       card[6];
-      document.getElementById("cardNumber").innerHTML = "7";
+      // document.getElementById("cardNumber").innerHTML = "7";
       console.log("You have got 7");
       console.log(random);
       break;
     case 8:
       card[7];
-      document.getElementById("cardNumber").innerHTML = "8";
+      // document.getElementById("cardNumber").innerHTML = "8";
       console.log("You have got 8");
       console.log(random);
       break;
     case 9:
       card[8];
-      document.getElementById("cardNumber").innerHTML = "9";
+      // document.getElementById("cardNumber").innerHTML = "9";
       console.log("You have got 9");
       console.log(random);
       break;
     case 10:
       card[9];
-      document.getElementById("cardNumber").innerHTML = "10";
+      // document.getElementById("cardNumber").innerHTML = "10";
       console.log("You have got 10");
       console.log(random);
       break;
     case 11:
       card[10];
-      document.getElementById("cardNumber").innerHTML = "Jack";
+      // document.getElementById("cardNumber").innerHTML = "Jack";
       console.log("You have got a Jack");
       console.log(random);
       break;
     case 12:
       card[11];
-      document.getElementById("cardNumber").innerHTML = "Queen";
+      // document.getElementById("cardNumber").innerHTML = "Queen";
       console.log("You have got a Queen");
       console.log(random);
       break;
     case 13:
       card[12];
-      document.getElementById("cardNumber").innerHTML = "King";
+      // document.getElementById("cardNumber").innerHTML = "King";
       // addImageKing();
       console.log("You have got a King");
       console.log(random);

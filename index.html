@@ -29,44 +29,49 @@
   </div>
 
   <div class="container" id="main-content">
-
-
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <!-- <div class="outer-card"> -->
-          <div class="card">
-            <div class="card_suit"><p id="cardNumber"></p></div>
-          </div>
-        <!-- </div> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <div class="outer-card"> -->
+            <div class="card">
+              <div class="card_suit"><p id="cardNumber"></p></div>
+            </div>
+          <!-- </div> -->
+        </div>
+        <div class="col-md-6">
+          <!-- <div class="outer-card"> -->
+            <div class="card2">
+              <div class="card_suit"><p id="cardNumber2"></p></div>
+            </div>
+          <!-- </div> -->
+        </div>
       </div>
-      <div class="col-md-6">
-        <!-- <div class="outer-card"> -->
-          <div class="card2">
-            <div class="card_suit"><p id="cardNumber2"></p></div>
-          </div>
-        <!-- </div> -->
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <button type="button" name="button" id="buttongen">Generate Random Number</button> -->
+          <button type="button" name="button" id="buttongen" class="btn btn-dark">Start</button>
+          <!-- <button type="button" name="button" id="buttongen2">Generate Second Card</button> -->
+        </div>
+        <div class="col-md-6">
+          <button type="button" name="button" id="higherbtn" class="btn btn-dark">Higher</button>
+          <button type="button" name="button" id="lowerbtn" class="btn btn-dark">Lower</button>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <!-- <button type="button" name="button" id="buttongen">Generate Random Number</button> -->
-        <button type="button" name="button" id="buttongen" class="btn btn-dark">Start</button>
-        <!-- <button type="button" name="button" id="buttongen2">Generate Second Card</button> -->
-      </div>
-      <div class="col-md-6">
-        <button type="button" name="button" id="higherbtn" class="btn btn-dark">Higher</button>
-        <button type="button" name="button" id="lowerbtn" class="btn btn-dark">Lower</button>
-      </div>
-    </div>
-  </div>
-
-  </div>
   <button type="button" name="button" id="bringback" class="btn btn-dark">Replay</button>
+
+  <div class="container rules">
+    <div class="card-body">
+      Welcome to Higher or Lower ! Please click start to continue, this will generate you a card,
+      you must then decide whether the next card is going to be higher or lower. You only have three Lives,
+      so three incorrect guesses and its GAME OVER !<BR>Ace = 0
+    </div>
+  </div>
 
   <div class="container images">
     <img src="assets/5chip.png" alt="5 chip">
