@@ -86,7 +86,7 @@ function genRandomCard() {
       break;
     case 11:
       card[10];
-      document.getElementById("cardNumber").innerHTML = "Joker";
+      document.getElementById("cardNumber").innerHTML = "Jack";
       console.log("You have got a Jack");
       console.log(random);
       break;
@@ -191,7 +191,7 @@ function genSecondCard() {
       break;
     case 11:
       secondCard[10];
-      // document.getElementById("cardNumber2").innerHTML = "Joker";
+      // document.getElementById("cardNumber2").innerHTML = "Jack";
       addImageJack();
       console.log("You have got a Jack");
       console.log(random2);
@@ -343,7 +343,7 @@ function addImageQueen() {
   q.setAttribute("src", "assets/queen.png");
   q.setAttribute("width", "242");
   q.setAttribute("height", "336");
-  q.setAttribute("alt", "King");
+  q.setAttribute("alt", "Queen");
   document.getElementById("cardNumber2").appendChild(q);
 }
 
@@ -352,7 +352,7 @@ function addImageJack() {
   j.setAttribute("src", "assets/jack.png");
   j.setAttribute("width", "242");
   j.setAttribute("height", "336");
-  j.setAttribute("alt", "King");
+  j.setAttribute("alt", "Jack");
   document.getElementById("cardNumber2").appendChild(j);
 }
 
@@ -361,7 +361,7 @@ function addImageAce() {
   a.setAttribute("src", "assets/ace.svg");
   a.setAttribute("width", "242");
   a.setAttribute("height", "336");
-  a.setAttribute("alt", "King");
+  a.setAttribute("alt", "Ace");
   document.getElementById("cardNumber2").appendChild(a);
 }
 
@@ -370,7 +370,7 @@ function addImage2() {
   two.setAttribute("src", "assets/2.svg");
   two.setAttribute("width", "242");
   two.setAttribute("height", "336");
-  two.setAttribute("alt", "King");
+  two.setAttribute("alt", "2");
   document.getElementById("cardNumber2").appendChild(two);
 }
 
@@ -379,7 +379,7 @@ function addImage3() {
   three.setAttribute("src", "assets/3.svg");
   three.setAttribute("width", "242");
   three.setAttribute("height", "336");
-  three.setAttribute("alt", "King");
+  three.setAttribute("alt", "3");
   document.getElementById("cardNumber2").appendChild(three);
 }
 
@@ -388,7 +388,7 @@ function addImage4() {
   four.setAttribute("src", "assets/4.png");
   four.setAttribute("width", "242");
   four.setAttribute("height", "336");
-  four.setAttribute("alt", "King");
+  four.setAttribute("alt", "4");
   document.getElementById("cardNumber2").appendChild(four);
 }
 
@@ -397,7 +397,7 @@ function addImage5() {
   five.setAttribute("src", "assets/5.png");
   five.setAttribute("width", "242");
   five.setAttribute("height", "336");
-  five.setAttribute("alt", "King");
+  five.setAttribute("alt", "5");
   document.getElementById("cardNumber2").appendChild(five);
 }
 
@@ -406,7 +406,7 @@ function addImage6() {
   six.setAttribute("src", "assets/6.png");
   six.setAttribute("width", "242");
   six.setAttribute("height", "336");
-  six.setAttribute("alt", "King");
+  six.setAttribute("alt", "6");
   document.getElementById("cardNumber2").appendChild(six);
 }
 
@@ -415,7 +415,7 @@ function addImage7() {
   seven.setAttribute("src", "assets/7.png");
   seven.setAttribute("width", "242");
   seven.setAttribute("height", "336");
-  seven.setAttribute("alt", "King");
+  seven.setAttribute("alt", "7");
   document.getElementById("cardNumber2").appendChild(seven);
 }
 
@@ -424,7 +424,7 @@ function addImage8() {
   eight.setAttribute("src", "assets/8.svg");
   eight.setAttribute("width", "242");
   eight.setAttribute("height", "336");
-  eight.setAttribute("alt", "King");
+  eight.setAttribute("alt", "8");
   document.getElementById("cardNumber2").appendChild(eight);
 }
 
@@ -433,7 +433,7 @@ function addImage9() {
   nine.setAttribute("src", "assets/9.png");
   nine.setAttribute("width", "242");
   nine.setAttribute("height", "336");
-  nine.setAttribute("alt", "King");
+  nine.setAttribute("alt", "9");
   document.getElementById("cardNumber2").appendChild(nine);
 }
 
@@ -442,7 +442,7 @@ function addImage10() {
   ten.setAttribute("src", "assets/10.png");
   ten.setAttribute("width", "242");
   ten.setAttribute("height", "336");
-  ten.setAttribute("alt", "King");
+  ten.setAttribute("alt", "10");
   document.getElementById("cardNumber2").appendChild(ten);
 }
 
