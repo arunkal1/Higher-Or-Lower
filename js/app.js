@@ -14,6 +14,9 @@ var secondCard = new Array("A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K");
 
 var random;
 var random2;
+var lives = 3;
+document.getElementById('lives').innerHTML = lives;
+var score = 0;
 
 function genRandomCard() {
 
@@ -243,13 +246,22 @@ function higherNumber() {
 
   if (random2 > random) {
     console.log("1 Point");
+    score = score + 1;
+    document.getElementById('score').innerHTML = score;
   } else if (random2 == random) {
     console.log("Same Card");
   } else if (random2 < random){
     console.log("You lose a life");
+    lives = lives - 1;
+    document.getElementById('lives').innerHTML = lives;
+    console.log("Your Lives are " + lives);
+    if (lives < 0) {
+      alert("Your lives are out");
+      prompt("Would you like to play again: (1)YES or (2)NO... Your Score was" + score);
+    }
   }
-
 }
+
 
 function lowerNumber() {
 
@@ -258,10 +270,19 @@ function lowerNumber() {
 
   if (random2 < random) {
     console.log("1 Point");
+    score = score + 1;
+    document.getElementById('score').innerHTML = score;
   } else if (random2 == random) {
     console.log("Same Card");
   } else if (random2 > random){
     console.log("You lose a life");
+    lives = lives - 1;
+    document.getElementById('lives').innerHTML = lives;
+    console.log("Your Lives are " + lives);
+    if (lives < 0) {
+      alert("Your lives are out");
+      prompt("Would you like to play again: (1)YES or (2)NO... Your Score was: " + score);
+    }
   }
 }
 
