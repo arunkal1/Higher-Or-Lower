@@ -324,14 +324,14 @@ function bringBackContent() {
   bringBack.hidden = false;
   bringBack.addEventListener("click", function(){
     window.location.reload(false)
-  }); 
+  });
 }
 
 // Images:
 
 function addImageKing() {
   var x = document.createElement("IMG");
-  x.setAttribute("src", "king.png");
+  x.setAttribute("src", "assets/king.png");
   x.setAttribute("width", "242");
   x.setAttribute("height", "336");
   x.setAttribute("alt", "King");
@@ -340,7 +340,7 @@ function addImageKing() {
 
 function addImageQueen() {
   var q = document.createElement("IMG");
-  q.setAttribute("src", "queen.png");
+  q.setAttribute("src", "assets/queen.png");
   q.setAttribute("width", "242");
   q.setAttribute("height", "336");
   q.setAttribute("alt", "King");
@@ -349,7 +349,7 @@ function addImageQueen() {
 
 function addImageJack() {
   var j = document.createElement("IMG");
-  j.setAttribute("src", "jack.png");
+  j.setAttribute("src", "assets/jack.png");
   j.setAttribute("width", "242");
   j.setAttribute("height", "336");
   j.setAttribute("alt", "King");
@@ -358,7 +358,7 @@ function addImageJack() {
 
 function addImageAce() {
   var a = document.createElement("IMG");
-  a.setAttribute("src", "ace.svg");
+  a.setAttribute("src", "assets/ace.svg");
   a.setAttribute("width", "242");
   a.setAttribute("height", "336");
   a.setAttribute("alt", "King");
@@ -367,7 +367,7 @@ function addImageAce() {
 
 function addImage2() {
   var two = document.createElement("IMG");
-  two.setAttribute("src", "2.svg");
+  two.setAttribute("src", "assets/2.svg");
   two.setAttribute("width", "242");
   two.setAttribute("height", "336");
   two.setAttribute("alt", "King");
@@ -376,7 +376,7 @@ function addImage2() {
 
 function addImage3() {
   var three = document.createElement("IMG");
-  three.setAttribute("src", "3.svg");
+  three.setAttribute("src", "assets/3.svg");
   three.setAttribute("width", "242");
   three.setAttribute("height", "336");
   three.setAttribute("alt", "King");
@@ -385,7 +385,7 @@ function addImage3() {
 
 function addImage4() {
   var four = document.createElement("IMG");
-  four.setAttribute("src", "4.png");
+  four.setAttribute("src", "assets/4.png");
   four.setAttribute("width", "242");
   four.setAttribute("height", "336");
   four.setAttribute("alt", "King");
@@ -394,7 +394,7 @@ function addImage4() {
 
 function addImage5() {
   var five = document.createElement("IMG");
-  five.setAttribute("src", "5.png");
+  five.setAttribute("src", "assets/5.png");
   five.setAttribute("width", "242");
   five.setAttribute("height", "336");
   five.setAttribute("alt", "King");
@@ -403,7 +403,7 @@ function addImage5() {
 
 function addImage6() {
   var six = document.createElement("IMG");
-  six.setAttribute("src", "6.png");
+  six.setAttribute("src", "assets/6.png");
   six.setAttribute("width", "242");
   six.setAttribute("height", "336");
   six.setAttribute("alt", "King");
@@ -412,7 +412,7 @@ function addImage6() {
 
 function addImage7() {
   var seven = document.createElement("IMG");
-  seven.setAttribute("src", "7.png");
+  seven.setAttribute("src", "assets/7.png");
   seven.setAttribute("width", "242");
   seven.setAttribute("height", "336");
   seven.setAttribute("alt", "King");
@@ -421,7 +421,7 @@ function addImage7() {
 
 function addImage8() {
   var eight = document.createElement("IMG");
-  eight.setAttribute("src", "8.svg");
+  eight.setAttribute("src", "assets/8.svg");
   eight.setAttribute("width", "242");
   eight.setAttribute("height", "336");
   eight.setAttribute("alt", "King");
@@ -430,7 +430,7 @@ function addImage8() {
 
 function addImage9() {
   var nine = document.createElement("IMG");
-  nine.setAttribute("src", "9.png");
+  nine.setAttribute("src", "assets/9.png");
   nine.setAttribute("width", "242");
   nine.setAttribute("height", "336");
   nine.setAttribute("alt", "King");
@@ -439,7 +439,7 @@ function addImage9() {
 
 function addImage10() {
   var ten = document.createElement("IMG");
-  ten.setAttribute("src", "10.png");
+  ten.setAttribute("src", "assets/10.png");
   ten.setAttribute("width", "242");
   ten.setAttribute("height", "336");
   ten.setAttribute("alt", "King");
