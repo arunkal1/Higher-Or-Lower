@@ -210,6 +210,9 @@ function genSecondCard() {
     console.log("Thats Not Meant to Happen")
   }
 
+  console.log("Random: " + random);
+  console.log("Random2: " + random2);
+
   compare(random2, random);
 
 
@@ -265,6 +268,8 @@ function lowerNumber() {
 function moveCard() {
 
   buttonGen.hidden = true;
+
+  random = random2;
 
   var oldParent = document.getElementById('cardNumber2');
   var newParent = document.getElementById('cardNumber');
