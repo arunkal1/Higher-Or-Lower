@@ -291,19 +291,9 @@ function resetGame() {
   var gameOver = new Audio('assets/gameOver.mp3');
   gameOver.play();
 
-  var restart = prompt("Would you like to play again: (1)Yes or (2)No... Your Score was " + score);
-
-  while (restart != "1" && restart != "2") {
-    restart = prompt("Invalid Selection: Would you like to play again: (1)Yes or (2) No");
-  }
-
-  if (restart == 1) {
-    window.location.reload(false);
-  } else if (restart == 2) {
     var x = document.getElementById("main-content") ;
     x.style.display = "none";
     bringBackContent();
-  }
 }
 
 var bringBack = document.getElementById("bringback");
@@ -311,7 +301,12 @@ bringBack.addEventListener("click", bringBackContent);
 
 bringBack.hidden = true;
 
+var bringBack2 = document.getElementById("info-content");
+
+bringBack2.hidden = false;
+
 function bringBackContent() {
+  bringBack2.hidden = true;
   bringBack.hidden = false;
   bringBack.addEventListener("click", function(){
     window.location.reload(false)
