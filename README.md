@@ -1,6 +1,6 @@
 
-#Higher or Lower
-###By Arun Kalwan
+# Higher or Lower
+### By Arun Kalwan
 
 <hr>
 
@@ -15,7 +15,7 @@ To clone the repository, [go to this link ](https://github.com/arunkal1/Higher-O
 Click on the **Clone or Download** button to clone this repository ![Git Page](screenshots/clone.png). Then download as a .ZIP file, after unzipping the file go to the Higher Or Lower folder and open the index.html file in your browser.
 <hr>
 
-##How to Play:
+## How to Play:
 
 The game is simply to play. Upon loading the page you will be presented with the below:
 
@@ -46,7 +46,7 @@ If the player chooses to play again by pressing (1) then the page will be reload
 <img src="screenshots/noReplay.png">
 <hr>
 
-##Rules:
+## Rules:
 
 * The player is allocated 3 lives and loses 1 life for each incorrect guess.
 * The player starts from 0 points and gains 1 point for each correct guess.
@@ -54,7 +54,7 @@ If the player chooses to play again by pressing (1) then the page will be reload
 
 <hr>
 
-##Development Process:
+## Development Process:
 Development of this game started from creating two arrays, one for the first card generated and one for the second card created. A random number was then created using **Math.random()** which was assigned to each position in the array. Therefore, a random number is associated to each card.
 
 A switch statement was used to compare the cards and determine which value each card had. After determining the value of the card I used logic to compare which card was higher in terms of numerical value, checking to see if one number was higher or lower than another number. 
@@ -67,5 +67,5 @@ After the general game play was completed, the game was styled using CSS and Key
 
 <hr>
 
-##Future Development:
+## Future Development:
 Future development would consist of connecting the game to a database to store players highscores.
