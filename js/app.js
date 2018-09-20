@@ -219,6 +219,9 @@ function genSecondCard() {
 
   compare(random2, random);
 
+  var initialAudio = new Audio('assets/dealingCards.mp3');
+  initialAudio.play();
+
 
 }
 
@@ -249,6 +252,11 @@ function higherNumber() {
     console.log("1 Point");
     score = score + 1;
     document.getElementById('score').innerHTML = score;
+    var scoreAnimation = document.getElementById("score");
+    scoreAnimation.classList.add("score");
+      setTimeout(function() {
+        scoreAnimation.classList.remove("score");
+      }, 1000);
   } else if (random2 == random) {
     console.log("Same Card");
   } else if (random2 < random){
@@ -256,6 +264,11 @@ function higherNumber() {
     lives = lives - 1;
     document.getElementById('lives').innerHTML = lives;
     console.log("Your Lives are " + lives);
+    var element = document.getElementById("lives");
+    element.classList.add("lives");
+      setTimeout(function() {
+        element.classList.remove("lives");
+      }, 1000);
   }
   if (lives <= 0) {
     alert("Your lives are out");
@@ -273,6 +286,11 @@ function lowerNumber() {
     console.log("1 Point");
     score = score + 1;
     document.getElementById('score').innerHTML = score;
+    var scoreAnimation = document.getElementById("score");
+    scoreAnimation.classList.add("score");
+      setTimeout(function() {
+        scoreAnimation.classList.remove("score");
+      }, 3000);
   } else if (random2 == random) {
     console.log("Same Card");
   } else if (random2 > random){
@@ -280,6 +298,11 @@ function lowerNumber() {
     lives = lives - 1;
     document.getElementById('lives').innerHTML = lives;
     console.log("Your Lives are " + lives);
+    var element = document.getElementById("lives");
+    element.classList.add("lives");
+      setTimeout(function() {
+        element.classList.remove("lives");
+      }, 3000);
   }
   if (lives <= 0) {
     alert("Your lives are out");
@@ -288,6 +311,9 @@ function lowerNumber() {
 }
 
 function moveCard() {
+
+  var audio = new Audio('assets/dealingCards.mp3');
+  audio.play();
 
   buttonGen.hidden = true;
 
@@ -300,6 +326,10 @@ function moveCard() {
 }
 
 function resetGame() {
+
+  var gameOver = new Audio('assets/gameOver.mp3');
+  gameOver.play();
+
   var restart = prompt("Would you like to play again: (1)Yes or (2)No... Your Score was " + score);
 
   while (restart != "1" && restart != "2") {
