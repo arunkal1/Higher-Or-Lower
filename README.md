@@ -23,8 +23,8 @@ The game is simply to play. Upon loading the page you will be presented with the
 
 To Start the game, simply press the Start button, this will generate you your first card on the right deck.
 
-<img align="left" width="49%" src="screenshots/Start.png">
-<img align="right" width="49%" src="screenshots/Start2.png">
+<img src="screenshots/Start.png">
+<img src="screenshots/Start2.png">
 
 Once you have generated you first card on the right hand side, then the player must guess whether the new card is going to be **Higher** or **Lower**.
 
@@ -38,8 +38,8 @@ The game will keep track of your score and your lives remaining. Each player sta
 
 Once the player reaches **0 Lives** it is **GAME OVER**. The player will then be presented with the below screens:
 
-<img align="left" width="49.5%" src="screenshots/livesOut.png">
-<img align="right" width="49.5%" src="screenshots/replay.png">
+<img src="screenshots/livesOut.png">
+<img src="screenshots/replay.png">
 
 If the player chooses to play again by pressing (1) then the page will be reloaded as a fresh game, however, if they press (2) and choose not to replay then they will be diverted to the following page:
 
