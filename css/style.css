@@ -1,40 +1,40 @@
 body{
-  text-align: center;
   background-color: #006400;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
+  text-align: center;
 }
 
 .header {
-  margin-top: 12px;
   margin-bottom: 22px;
+  margin-top: 12px;
 }
 
 .card {
+  background-color: white;
   border: solid black 4px;
   border-radius: 10px;
   height: 350px;
   margin: 0 auto;
-  margin-top: 100px;
-  width: 250px;
   margin-bottom: 35px;
-  background-color: white;
+  margin-top: 100px;
   outline: groove white 4px;
   outline-offset: 20px;
+  width: 250px;
 }
 
 .card2 {
+  background-color: white;
   border: solid black 4px;
   border-radius: 10px;
   height: 350px;
   margin: 0 auto;
-  margin-top: 100px;
-  width: 250px;
   margin-bottom: 35px;
-  background-color: white;
+  margin-top: 100px;
   outline: groove white 4px;
   outline-offset: 20px;
+  width: 250px;
 }
 
 .card_suit{
@@ -59,10 +59,10 @@ h1 {
 
 .outer-card {
   border: white solid 4px;
+  border-radius: 10px;
   height: 400px;
-  width: 300px;
   margin-top: 100px;
-  border-radius: 10px
+  width: 300px;
 }
 
 .images{

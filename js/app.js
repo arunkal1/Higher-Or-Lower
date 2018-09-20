@@ -5,9 +5,6 @@ buttonGen.addEventListener("click", genRandomCard);
 
 buttonGen.hidden = false;
 
-// var buttonGen2 = document.getElementById("buttongen2");
-// buttonGen2.addEventListener("click", genSecondCard);
-
 var card = new Array("A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K");
 
 var secondCard = new Array("A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K");
