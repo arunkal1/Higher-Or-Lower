@@ -1,10 +1,12 @@
 document.addEventListener("DOMContentLoaded", function(){
 
+// Generates the start button:
 var buttonGen = document.getElementById("buttongen");
 buttonGen.addEventListener("click", genRandomCard);
 
 buttonGen.hidden = false;
 
+// Creates an Array to store the cards:
 var card = new Array("A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K");
 
 var secondCard = new Array("A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K");
@@ -16,6 +18,7 @@ document.getElementById('lives').innerHTML = lives;
 var score = 0;
 document.getElementById('score').innerHTML = score;
 
+// Assigns element in array to that of the random number:
 function genRandomCard() {
 
   random = Math.ceil(Math.random()*13);
@@ -93,6 +96,7 @@ function genRandomCard() {
   genSecondCard();
 }
 
+// Assigns element in array to that of the random number:
 function genSecondCard() {
 
   random2 = Math.ceil(Math.random()*13);
@@ -189,6 +193,7 @@ function genSecondCard() {
   initialAudio.play();
 }
 
+// Compares the two random numbers to determine which is higher or lower
 function compare(num1, num2){
   if (random2 > random) {
     console.log('Its higher');
@@ -205,6 +210,7 @@ higher.addEventListener("click", higherNumber);
 var lower = document.getElementById("lowerbtn");
 lower.addEventListener("click", lowerNumber);
 
+// If the higher button is pressed:
 function higherNumber() {
 
   moveCard();
@@ -237,6 +243,7 @@ function higherNumber() {
   }
 }
 
+// If the lower button is pressed:
 function lowerNumber() {
 
   moveCard();
@@ -269,6 +276,7 @@ function lowerNumber() {
   }
 }
 
+// Moves new card to the right deck and old card to the left deck- Audio of dealing cards:
 function moveCard() {
 
   var audio = new Audio('assets/dealingCards.mp3');
@@ -284,6 +292,7 @@ function moveCard() {
   oldParent.innerHTML = '';
 }
 
+// Reset game once all the lives have run out:
 function resetGame() {
 
   var gameOver = new Audio('assets/gameOver.mp3');
@@ -307,6 +316,7 @@ var livesFinished = document.getElementById("livesOut");
 
 livesFinished.hidden = true;
 
+// Hidden items which display once lives out are brought back to be visible:
 function bringBackContent() {
   bringBack2.hidden = true;
   bringBack.hidden = false;
