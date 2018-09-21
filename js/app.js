@@ -316,7 +316,7 @@ var livesFinished = document.getElementById("livesOut");
 
 livesFinished.hidden = true;
 
-// Hidden items which display once lives out are brought back to be visible:
+// Hidden items which display once lives out are brought back to be visible
 function bringBackContent() {
   bringBack2.hidden = true;
   bringBack.hidden = false;
