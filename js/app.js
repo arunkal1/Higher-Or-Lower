@@ -233,7 +233,6 @@ function higherNumber() {
       }, 1000);
   }
   if (lives <= 0) {
-    alert("Your lives are out");
     resetGame();
   }
 }
@@ -266,7 +265,6 @@ function lowerNumber() {
       }, 3000);
   }
   if (lives <= 0) {
-    alert("Your lives are out");
     resetGame();
   }
 }
@@ -305,9 +303,14 @@ var bringBack2 = document.getElementById("info-content");
 
 bringBack2.hidden = false;
 
+var livesFinished = document.getElementById("livesOut");
+
+livesFinished.hidden = true;
+
 function bringBackContent() {
   bringBack2.hidden = true;
   bringBack.hidden = false;
+  livesFinished.hidden = false;
   bringBack.addEventListener("click", function(){
     window.location.reload(false)
   });
