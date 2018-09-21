@@ -4,7 +4,7 @@
 
 <hr>
 
-A Higher or Lower game made with HTML, CSS and JavaScript. Higher or Lower is a fun card game that requires players to correctly guess what the next card is going to be. Higher or Lower is highly addictive game which lets player keep track of their scores. This game can be played casually, competitively or even as a drinking game.
+A Higher or Lower game made with HTML, CSS and JavaScript. Higher or Lower is a fun card game that requires players to correctly guess what the next card is going to be. Higher or Lower is highly addictive game which lets players keep track of their scores. This game can be played casually or competitively.
 
 [Link To The Game](https://arunkal1.github.io/Higher-Or-Lower/)
 
