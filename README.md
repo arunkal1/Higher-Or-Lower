@@ -23,10 +23,9 @@ The game is simply to play. Upon loading the page you will be presented with the
 
 To Start the game, simply press the Start button, this will generate you your first card on the right deck.
 
-<img src="screenshots/Start.png">
-<img src="screenshots/Start2.png">
+<img src="screenshots/startbtn.png">
 
-Once you have generated you first card on the right hand side, then the player must guess whether the new card is going to be **Higher** or **Lower**.
+Once you have generated your first card on the right hand side, then the player must guess whether the new card is going to be **Higher** or **Lower**.
 
 Once the player has guessed **Higher** or **Lower** the new card will appear and your old card will move onto the deck on the left. The start button will also no longer be visible. 
 
@@ -41,7 +40,7 @@ Once the player reaches **0 Lives** it is **GAME OVER**. The player will then be
 <img src="screenshots/livesOut.png">
 <img src="screenshots/replay.png">
 
-If the player chooses to play again by pressing (1) then the page will be reloaded as a fresh game, however, if they press (2) and choose not to replay then they will be diverted to the following page:
+Once the player has run out of lives then they will be redirected to the below page, where they can chose to replay:
 
 <img src="screenshots/noReplay.png">
 <hr>
@@ -69,3 +68,5 @@ After the general game play was completed, the game was styled using CSS and Key
 
 ## Future Development:
 Future development would consist of connecting the game to a database to store players highscores.
+
+I would also add all cards and suits for an option where the user can guess the suit or the number, allocating more points for correct guesses.
