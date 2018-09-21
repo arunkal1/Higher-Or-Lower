@@ -35,12 +35,7 @@ The game will keep track of your score and your lives remaining. Each player sta
 
 <img src="screenshots/lifeScore.png">
 
-Once the player reaches **0 Lives** it is **GAME OVER**. The player will then be presented with the below screens:
-
-<img src="screenshots/livesOut.png">
-<img src="screenshots/replay.png">
-
-Once the player has run out of lives then they will be redirected to the below page, where they can chose to replay:
+Once the player reaches **0 Lives** it is **GAME OVER**. The player will then be presented with the below screen, where they can chose to replay:
 
 <img src="screenshots/noReplay.png">
 <hr>
